@@ -52,12 +52,7 @@ class Hscode_model extends CI_Model {
         $this->db->from($this->table);
         return $this->db->count_all_results();
     }
-	public function Hscode(){
-        $sql ="SELECT * FROM hs_code";
-        $query = $this->db->query($sql);
-        return $query->result();
 
-    }
 
    
 
