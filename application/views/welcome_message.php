@@ -43,6 +43,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     $('#tabler').DataTable({
         processing: true,
         serverSide: true,
+        searching: true,
+        ordering: true,
         order: [],
         ajax:{ 
            url:"<?php echo base_url('Welcome/hsdetails') ?>",
